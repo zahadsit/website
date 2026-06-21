@@ -163,7 +163,7 @@ const Footer: React.FC = () => {
         {/* Copyright */}
         <div className="border-t border-[#2C3E50] mt-8 pt-8 flex flex-wrap justify-between">
           <p className="text-[#E0E0E0]/60 text-sm md:text-base text-center md:text-left">
-            Copyright © {new Date().getFullYear()} Zahads. All Rights Reserved
+            Copyright © {new Date().getFullYear()} Zahads. All Rights Reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link href="/privacy-policy" className="text-[#E0E0E0]/60 hover:text-[#5F9EA0] text-sm md:text-base">
