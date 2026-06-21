@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: var(--font-lora), serif;
+  font-weight: 700; /* Bold as per brand guidelines */
+  line-height: 1.3;
+}
+.subheading {
+  font-family: var(--font-loto), sans-serif;
+  font-weight: 700;
+}
+
+/* Emphasis - Lato Italic */
+em,
+.emphasis {
+  font-family: var(--font-loto), sans-serif;
+  font-style: italic;
+}
+p,
+a,
+ul,
+li,
+button,
+div {
+  font-family: var(--font-loto), sans-serif;
+
+  /* font-style: italic; */
+}
+
+.body {
+  scroll-behavior: smooth;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-navbar {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+#_proprofs_trk_inner_footer_ a {
+  display: none !important;
+}
+
+
+.blogContent li{
+  margin: 15px 0px;
+}
+
+.blogContent h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.blogContent h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+.blogContent h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+.blogContent a {
+  text-decoration: underline;
+  color: #b2913b;
+}
+.blogsExtra a {
+  text-decoration: underline;
+  color: #f7841f;
+}
+
+.blogsExtra figcaption {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.blogContent img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+  height: 360px;
+  /* padding-top :50px; */
+  object-fit: cover;
+  border-radius: 12px;
+  transform-origin: center;
+}
+.blogContent h4 {
+  font-weight: 700;
+}
+.blogContent h5 {
+  font-weight: 600;
+}
+
+.blogContent p {
+  margin-bottom: 10px;
+}
+.blogContent ul {
+  padding-left: 30px;
+  list-style-type: disc;
+}
+.blogContent li a {
+  text-decoration: none;
+}
+
+.blogContent .responsive-table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.blogContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  /* Ensures the table doesn't shrink when scrolling */
+  min-width: 600px;
+}
+
+.blogContent th td{
+  font-weight: 600;
+}
+
+.blogContent th,
+.blogContent td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word; /* Prevents long words from overflowing */
+}
+
+.blogContent th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #555;
+  white-space: nowrap; /* Keeps header text on a single line */
+}
+
+.blogContent tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.blogContent tr:hover {
+  background-color: #f1f1f1;
+}
+
+.blogContent table caption {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.blogContent table tbody tr:last-child td {
+  border-bottom: none;
+}
+
