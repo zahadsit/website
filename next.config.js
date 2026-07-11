@@ -15,6 +15,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.pexels.com",
       },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
     ],
     formats: ["image/webp", "image/avif"], // Modern formats
     minimumCacheTTL: 86400, // Cache for 1 day
