@@ -69,9 +69,12 @@ const Navbar = () => {
     setToggleMenu('');
   }
 
-  // Transparent on all pages except /blogs and blog detail pages, when not scrolled
+  // Transparent on all pages except /blogs, blog detail pages, and pages without a hero image, when not scrolled
   const isBlogPage =
-    pathName.startsWith("/blogs") || pathName.startsWith("/trade-license"); ;
+    pathName.startsWith("/blogs") ||
+    pathName.startsWith("/trade-license") ||
+    pathName.startsWith("/privacy-policy") ||
+    pathName.startsWith("/terms-of-service");
   const isTransparent = !isBlogPage && !hasScrolled;
   return (
     <div
